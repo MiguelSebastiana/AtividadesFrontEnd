@@ -1,0 +1,46 @@
+.destaque {
+    color: #febe02
+}
+
+.torno {
+    padding: 10px;
+    background: #112;
+}
+
+.torno p {
+    color: #b3b3b3
+}
+
+.torno h2{
+    color: #ffff
+}
+
+.but{  
+    padding: 10px;
+    background: #febe02;
+    color: #112;
+}
+
+.gerador{
+    padding: 10px;
+    background: #112;
+}
+
+.gerador p {
+    color: #b3b3b3;
+}
+
+.gerador h2{
+    color: #ffff
+}
+
+.title {
+    color: #112;
+    text-align: center;
+}
+
+*{
+    font-family: Arial;
+    border-radius: 4px;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+body {
+    background: #283C50;
+}
+
+.container {
+    display: flex;
+    display: grid;
+    background: #283C50;
+    justify-content: center;
+    justify-items: center;
+}
+
+.title  {
+    color: #ffffff;
+    justify-content: center;
+    justify-items: center;
+}
+
+.cabecalho {
+    background: #32465A;
+    border-left: 2px solid #ffffff;
+}
+
+.linha {
+    width: 100px;
+    color: #ffffff;
+}
+

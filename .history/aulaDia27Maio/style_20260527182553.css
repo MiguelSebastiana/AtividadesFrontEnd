@@ -1,0 +1,16 @@
+.box {
+    display: grid;
+    background: #F0F5F3;
+    justify-items: center;
+}
+
+.barraNavegacao {
+    
+}
+
+.buttonNavbar {
+    width: 100px;
+    height: 50px;
+    background: #FEFEFE;
+    border-radius: 8px;
+}

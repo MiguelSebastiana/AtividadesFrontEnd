@@ -1,0 +1,28 @@
+span{
+    display: inline-block;
+    background: #eee;
+}
+
+.padding {
+    /* padding-top: 35px;
+    padding-right: 75px;
+    padding-bottom: 55px;
+    padding-left: 15px; */
+
+    padding: 35px 75px 55px 15px;
+} 
+
+.margin {
+    /* margin-top: 19px;
+    margin-right: 19px;
+    margin-bottom: 39px;
+    margin-left: 39px; */
+
+    margin: 19px 39px;
+}
+
+.border {
+    border: 10px solid orange;
+    border-top: 23px solid purple;
+    border-width: 35px top/bottom 55px right/left;
+}

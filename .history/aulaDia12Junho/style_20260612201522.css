@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+main {
+    background: #F0F5F5;
+}
+
+.topBar{
+    background: #283C50;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+.buttonColorido {
+    background: #D77837;
+    padding: 1rem;
+}
+
+.titleNav {
+    color: #fff;
+}
+
+.subTitNav {
+    color: #868078;
+}
+
+.button {
+    border: none;
+    background: #283C50;
+    color: #fff;
+}

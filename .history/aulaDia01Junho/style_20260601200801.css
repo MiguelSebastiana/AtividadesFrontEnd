@@ -1,0 +1,216 @@
+body {
+    background: #191923;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 6px solid #464B69;
+    width: 1800px;
+    height: auto;
+    padding: 30px;
+    max-width: 1800px;
+}
+
+.containerInterno {
+    display: flex;
+    width: 1800px;
+    height: auto;
+    max-width: 1800px;
+}
+
+.painelLateral {
+    background: #3C5A7D;
+    flex: 1;
+    height: 665px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.painelLateral h2 {
+    color: #fff;
+}
+
+.linha {
+    display: flex;
+    width: 275px;
+    height: 3px;
+    background: #444C6B;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 75px;
+}
+
+.icone {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-size: 40px;
+    max-height: 100px;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.iconeText {
+    display: flex;
+    justify-self: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttonLigar {
+    border: 1px solid #000;
+    background: #96BED7;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.3 ease-in-out;
+}
+
+.buttonPausar {
+    border: 1px solid #000;
+    background: #96BED7;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.3 ease-in-out;
+}
+
+.buttonLigar:hover {
+    transform: scale(1.1);
+    background: #37AF00;
+    cursor: pointer;
+}
+
+.buttonPausar:hover {
+    transform: scale(1.1);
+    background: #FFED2A;
+    cursor: pointer;
+}
+
+.paradaEmergencia {
+    background: #EB694B;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #D8072A;
+    color: #fff;
+    transition: 0.3 ease-in-out;
+}
+
+.paradaEmergencia:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.gridDeMonitoramento {
+    display: grid;
+    flex: 4;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-left: 35px; 
+}
+
+.cardTemp {
+    background: #283241;
+    width: 455px;
+    height: 325px;
+    border: 2px solid #3A5779;
+    justify-items: center;
+    align-content: center;
+    transition: 0.3 ease-in-out;
+    border-radius: 8px;
+    position: relative;
+}
+
+.card {
+    background: #283241;
+    width: 455px;
+    height: 325px;
+    border: 2px solid #3A5779;
+    justify-items: center;
+    align-content: center;
+    transition: 0.3 ease-in-out;
+    border-radius: 8px;
+}
+
+.cardInferior {
+    background: #283241;
+    width: 455px;
+    height: 325px;
+    border: 2px solid #3A5779;
+    justify-items: center;
+    align-content: center;
+    transition: 0.3 ease-in-out;
+    border-radius: 8px;
+}
+
+.cardInferior:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.cardTemp:hover {
+    transform: scale(1.05);
+    border: 2px solid #EB694B;
+    cursor: pointer;
+}
+
+.tituloCard {
+    color: #7C9DB4;
+}
+
+.valorCard {
+    color: #37AF00;
+}
+
+.valorCardAnomalia {
+    color: #FF4B4B;
+}
+
+.valorCardRede {
+    color: #6ED2FF;
+}
+
+.sistemaDeAlertas {
+    margin-top: 20px;
+    display: flex;
+    border-top: 2px solid #464B69;
+    background: #282D41;
+    color: #6C8398;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    flex-basis: 100%;
+    max-height: 30px;
+}
+
+.sistemaDeAlertas h2 {
+    display: inline-block;
+}
+
+.sistema {
+    margin-left: 1300px;   
+}
+
+.buttonAnomalia {
+    display: flex;
+    background: #D70028;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    width: 150px;
+    justify-content: center;
+    align-content: center;
+}

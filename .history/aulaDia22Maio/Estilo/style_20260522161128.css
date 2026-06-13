@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+
+.produto {
+    background: #f7f7f7;
+    border: 1px;
+    margin-bottom: 20px;
+    padding: 20px;
+}

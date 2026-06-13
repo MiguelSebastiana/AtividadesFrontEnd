@@ -1,0 +1,85 @@
+body {
+    background: #283C50;
+
+}
+
+.container {
+    display: flex;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.title  {
+    color: #ffffff;
+    justify-content: center;
+    justify-items: center;
+    font-weight: bold;
+}
+
+.cabecalho {
+    background: #32465A;
+    border-left: 5px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+    width: 1035px;
+    margin: 15px 0px 15px 0px;
+}
+
+.cabecalho p {
+    margin-left: 10px;
+}
+
+.linha {
+    height: 4px;
+    width: 1050px;
+    background-color: #ffffff;
+}
+
+.linhaDeMontagem {
+    flex-direction: row;
+    gap: 25px;
+    width: 1050px;
+}
+
+.quadroLinhaMontagem {
+    display: grid;
+    grid-column: 1fr 1fr;
+    background: #F0C30F;
+    gap: 25px;
+}
+
+.painelDeSensores {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1050px;
+}
+
+.quadroPainelDeSensores {
+    background: #BE3728;
+    justify-items: center;
+    padding: 20px;
+}
+
+.logs{
+    background: #D2E6F5;
+    width: 1010px;
+    padding: 20px;
+    border: 1px solid #93BDDB;
+}
+
+.logs p {
+    color: #698194;
+}
+
+.linhaLogs {
+    height: 4px;
+    width: 1000px;
+    background-color: #BDDBF2;
+}
+
+.rodape {
+    color: #2DC86E;
+    justify-content: center;
+}

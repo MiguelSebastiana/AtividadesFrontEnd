@@ -1,0 +1,41 @@
+body {
+    background: #191923;
+}
+
+.painelLateral {
+    background: #3C5A7D;
+    width: 300px;
+    height: 800px;
+    padding: 20px;
+}
+
+.linha {
+    display: flex;
+    width: 250px;
+    background: #fff;
+    justify-self: center;
+    align-self: center;
+}
+
+.imagem {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttonLigarPausar {
+    background: #96BED7;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.paradaEmergencia {
+    background: #EB694B;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #D8072A;
+}

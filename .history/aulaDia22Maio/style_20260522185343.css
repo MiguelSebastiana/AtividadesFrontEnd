@@ -1,0 +1,17 @@
+* {
+    background: #0F0F1E;
+}
+
+.titulo {
+    text-align: center;
+    color: #FABE00;
+}
+
+.subtitulo {
+    color: #FEFEFE;
+}
+
+.botao {
+    background: #FABE00;
+    border-radius: 8x;
+}

@@ -1,0 +1,72 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+}
+
+main {
+}
+
+.topBar {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 20px;
+    background: #14191E;
+    width: 1800px;  
+    max-height:50px;
+}
+
+.logoTipo {
+    display: flex;
+    margin-left: 30px;
+    color: #fff;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.heroSection {
+    display: flex;
+    justify-self: center;
+}
+
+.tituloHeroSection {
+    
+}
+
+.solucoesTexto {
+    background: #14191E;
+    border: 2px solid #F57D1E;
+    width: 300px;
+    max-height: ;
+}
+
+.MI80 {
+    color: #EB746E;
+
+}
+
+.opcoesTopBar {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background: #14191E;
+    border: none;
+    color: #B7C7CA;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.imagem {
+    display: flex;
+    height: auto;
+    width: 100%;
+    width: 1840px;
+    max-height: 400px;
+    justify-self: center;
+}

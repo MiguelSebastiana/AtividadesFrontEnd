@@ -1,0 +1,104 @@
+body{
+    background: #0A0A0A;
+}
+
+.topbar {
+    border: 4px solid #08979F;
+    padding: 30px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.topbar h2 {
+    color: #02EAFC;
+    font-weight: bold;
+}
+
+.topbar h3 {justify-items: center;
+    color: #2BEC14;
+    font-weight: bold;
+}
+
+.buttomTopbar {
+    margin-left: 1150px;
+    background: #FABE00;
+    color: #000;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.gridTopbar {
+    display: grid;
+}
+
+.quadro {
+    width: 400px;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #232325;
+    border-radius: 3px;
+    background: #0F0F14;
+}
+
+.quadroSelect {
+    width: 400px;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #F2B700;
+    border-radius: 3px;
+    background: #0F0F14;
+}
+
+.titulo {
+    color: #877E6B;
+}
+
+.valor {
+    color: #DBDBDB;
+}
+
+.linkBloco {
+    color: #05E0E8;
+}
+
+.linkBloco a {
+    color: #05E0E8;
+}
+
+.icone {
+    border-radius: 100%;
+    border: 3px solid #F2B700;
+    color: #F2B700;
+    padding: 15px;
+    text-align: center;
+    width: 40px;
+}
+
+.gridBlocos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    min-height: 700px;
+    justify-content: center;
+    justify-items: center;
+    margin: 0px 400px 0px 400px
+}
+
+.raio {
+    font-size: 100px;
+    width: 150px;
+    height: 300px;
+}
+
+.statusVerde {
+    margin-top: 10px;
+    color: #37FF14;
+}
+
+.statusAzul {
+    color: #01F0F4;
+}
+

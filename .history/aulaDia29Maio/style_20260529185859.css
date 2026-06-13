@@ -1,0 +1,38 @@
+body {
+    background: #283C50;
+
+}
+
+.container {
+    display: flex;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.title  {
+    color: #ffffff;
+    justify-content: center;
+    justify-items: center;
+    font-weight: bold;
+}
+
+.cabecalho {
+    background: #32465A;
+    border-left: 5px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+    width: ;
+}
+
+.cabecalho p {
+    margin-left: 10px;
+}
+
+.linha {
+    height: 4px;
+    width: 1050px;
+    background-color: #ffffff;
+}
+

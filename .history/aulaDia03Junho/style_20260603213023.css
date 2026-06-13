@@ -1,0 +1,279 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #0A0A14;
+    margin: 0;
+}
+
+header {
+}
+
+main {
+    justify-self: center;
+    width: 1940px;  
+}
+
+
+.topBar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #14191E;
+    width: 1900px;  
+    max-height:50px;
+    justify-content: space-around;
+}
+
+.logoTipo {
+    color: #fff;
+}
+
+.tituloHeroSection {
+    
+}
+
+.solucoesTexto {
+    background: #14191E;
+    border-left: 2px solid #F57D1E;
+    width: 500px;
+    padding: 20px;
+    place-content: center;
+    position: absolute;
+    bottom: 290px;
+    left: 130px;
+}
+
+.MI80 {
+    color: #EB746E;
+}
+
+.opcoesTopBar {
+    width: 130px;
+    height: 50px;
+    background: #14191E;
+    border: none;
+    color: #B7C7CA;
+    transition: 0.3 ease-in-out;
+    border-radius: 6px;
+    height: 40px;
+}
+
+.opcoesTopBarDireito {
+    width: 130px;
+    height: 50px;
+    background: #14191E;
+    border: none;
+    color: #fff;
+    transition: 0.3 ease-in-out;
+    border-radius: 6px;
+    height: 40px;
+    background: #F57D1E;
+}
+
+.opcoesTopBarDireito:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.imagem {
+    display: flex;
+    height: auto;
+    width: 100%;
+    width: 1940px;  
+    max-height: 650px;
+    justify-self: center;
+    position: relative;
+    opacity: 40%;
+}
+
+.buttonsTopBar {
+    display: flex;
+}
+
+.tituloHeroSection {
+    color: #fff;
+}
+
+.texto {
+    color: #C7CCCD;
+    font-weight: 100;
+}
+
+.heroSection {
+
+}
+
+.quadroPrincipal {
+    border: 2px solid #1F242B;
+    background: #14191E;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 800px;
+    height: 675px;
+    margin-top: 20px;
+}
+
+.quadroPrincipal h2 {
+    color: #FFFFFF;
+}
+
+.quadroPrincipal p {
+    color: #BEC3CE;
+}
+
+.quadros {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.certificado {
+    background: #1E232D;
+    border-radius: 4px;
+    border: none;
+    border-top: 4px solid #EC791E;
+    padding: 20px; 
+    transition: 0.3 ease-in-out;
+}
+
+.certificado:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.quadro {
+    background: #1E232D;
+    border: none;
+    border-radius: 6px;
+    color: #CE4038;
+    transition: 0.3 ease-in-out;
+}
+
+.quadro:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 2px solid;
+}
+
+.quadrosLaterais {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.linha {
+    width: 440px;
+    height: 6px;
+    background: #2C313B;
+}
+
+.quadroSuperior {
+    color: #ffffff;
+    margin-left: 30px;
+    border: 2px solid #1F242B;
+    background: #14191E;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+.quadroInferior {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid #1F242B;
+    background: #14191E;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+.quadrosInterior {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.buttonsCertificado {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.linhaRodaPe {
+    display: flex;
+    background: #181A24;
+    height: 6px;
+    width: 1800px;
+    justify-self: center;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo p {
+    color: #626D6B;
+    display: flex;
+    margin-top: 5px;
+}
+
+.contactInfo h2 {
+    color: #ffffff;
+}
+
+.quickLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.quickLinks p {
+    color: #626D6B;
+}
+
+.quickLinks h2 {
+    color: #ffffff;
+}
+
+.rodaPe {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.socialMedia {
+    color: #ffffff;
+}
+
+.icone {
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    width: 35px;
+}
+
+.iconePreto {
+    height: auto;
+    width: 100%;
+    width: 35px;
+    filter: invert();
+}
+
+.iconeRoda {
+    height: auto;
+    height: 30px;
+    width: 30px;
+}
+
+.iconeTexto {
+    display: flex;
+}

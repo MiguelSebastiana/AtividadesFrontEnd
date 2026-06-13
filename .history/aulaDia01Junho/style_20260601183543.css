@@ -1,0 +1,63 @@
+body {
+    background: #191923;
+}
+
+.container {
+    display: grid;
+    display: flex;
+}
+
+.painelLateral {
+    background: #3C5A7D;
+    width: 300px;
+    height: 800px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.painelLateral h2 {
+    color: #fff;
+}
+
+.linha {
+    display: flex;
+    width: 275px;
+    height: 3px;
+    background: #444C6B;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 75px;
+}
+
+.icone {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttonLigarPausar {
+    border: 1px solid #000;
+    background: #96BED7;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.paradaEmergencia {
+    background: #EB694B;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #D8072A;
+}
+
+.gridDeMonitoramento {
+
+}
+
+.card {
+    background: #283241;
+    width: 250px;
+}

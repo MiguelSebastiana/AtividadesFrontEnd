@@ -1,0 +1,22 @@
+*{
+    background: #0A0A0A;
+}
+
+.topbar {
+    border: 1px solid #08979F;
+    padding: 30px;
+    border-radius: 3px;
+}
+
+.topbar h2 {
+    color: #02EAFC;
+}
+
+.topbar h3 {
+    color: #2BEC14;
+}
+
+.buttomTopbar {
+    background: #FABE00;
+    color: #000;
+}

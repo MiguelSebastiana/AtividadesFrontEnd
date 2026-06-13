@@ -1,0 +1,9 @@
+span{
+    display: inline-block;
+    background: #eee;
+}
+
+.padding {
+    padding-right: 35px;
+    padding-right: 75px;
+}

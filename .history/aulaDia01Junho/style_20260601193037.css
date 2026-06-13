@@ -1,0 +1,143 @@
+body {
+    background: #191923;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    border: 6px solid #464B69;
+    width: 1800px;
+    height: auto;
+    padding: 20px;
+}
+
+.painelLateral {
+    background: #3C5A7D;
+    width: 31px
+    height: 665px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.painelLateral h2 {
+    color: #fff;
+}
+
+.linha {
+    display: flex;
+    width: 275px;
+    height: 3px;
+    background: #444C6B;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 75px;
+}
+
+.icone {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.iconeText {
+    display: flex;
+    justify-self: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttonLigarPausar {
+    border: 1px solid #000;
+    background: #96BED7;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.paradaEmergencia {
+    background: #EB694B;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #D8072A;
+    color: #fff;
+}
+
+.gridDeMonitoramento {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-left: 35px; 
+}
+
+.cardTemp {
+    background: #283241;
+    width: 455px;
+    height: 325px;
+    border: 2px solid #3A5779;
+    justify-items: center;
+    align-content: center;
+}
+
+.card {
+    background: #283241;
+    width: 455px;
+    height: 325px;
+    border: 2px solid #3A5779;
+    justify-items: center;
+    align-content: center;
+}
+
+.cardInferior {
+    background: #283241;
+    width: 455px;
+    height: 325px;
+    border: 2px solid #3A5779;
+    justify-items: center;
+    align-content: center;
+}
+
+.tituloCard {
+    color: #7C9DB4;
+}
+
+.valorCard {
+    color: #37AF00;
+}
+
+.valorCardAnomalia {
+    color: #FF4B4B;
+}
+
+.valorCardRede {
+    color: #6ED2FF;
+}
+
+.sistemaDeAlertas {
+    flex-basis: 10%;
+    margin-top: 30px;
+    display: flex;
+    border-top: 2px solid #464B69;
+    background: #282D41;
+    width: 1800px;
+    height: 50px;
+    color: #6C8398;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.sistemaDeAlertas h2 {
+    display: inline-block;
+}
+
+.sistema {
+    margin-left: 1360px;   
+}

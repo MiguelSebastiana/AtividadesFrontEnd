@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.topBar {
+    padding: 20px;
+    background: #14191E;
+    width: 1500px;  
+    max-width: 400px;
+}
+
+.logoTipo {
+    color: #fff;
+    display: inline-block;
+}
+
+.heroSection {
+    background: #14191E;
+}
+
+.tituloHeroSection {
+    
+}
+
+.MI80 {
+    color: #EB746E;
+
+}

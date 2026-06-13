@@ -1,0 +1,63 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+}
+
+main {
+}
+
+.topBar {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 20px;
+    background: #14191E;
+    width: 1800px;  
+    max-height:50px;
+    justify-content: space-around;
+}
+
+.logoTipo {
+    display: flex;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.tituloHeroSection {
+    
+}
+
+.solucoesTexto {
+    background: #14191E;
+    border: 2px solid #F57D1E;
+    width: 300px;
+    max-height: ;
+}
+
+.MI80 {
+    color: #EB746E;
+}
+
+.opcoesTopBar {
+    width: 100px;
+    height: 50px;
+    background: #14191E;
+    border: none;
+    color: #B7C7CA;
+    margin-left: 0px;
+}
+
+.imagem {
+    display: flex;
+    height: auto;
+    width: 100%;
+    width: 1840px;
+    max-height: 400px;
+    justify-self: center;
+}

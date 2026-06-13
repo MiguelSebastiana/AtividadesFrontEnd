@@ -1,0 +1,125 @@
+body {
+    background: #283C50;
+
+}
+
+.container {
+    display: flex;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.title  {
+    color: #ffffff;
+    justify-content: center;
+    justify-items: center;
+    font-weight: bold;
+}
+
+.cabecalho {
+    background: #32465A;
+    border-left: 5px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+    width: 1035px;
+    margin: 15px 0px 15px 0px;
+}
+
+.cabecalho p {
+    margin-left: 10px;
+}
+
+.linha {
+    height: 4px;
+    width: 1050px;
+    background-color: #ffffff;
+}
+
+.linhaDeMontagem {
+    display: flex;
+    gap: 25px;
+    width: 1050px;
+}
+
+.quadroLinhaMontagemMeio{
+    color: #555A41;
+    background: #F0C30F;
+    height: 225px;
+    width: 525px;
+    padding: 10px;
+}
+
+.quadroLinhaMontagem {
+    color: #555A41;
+    background: #F0C30F;
+    height: 225px;
+    width: 262,5px;
+    padding: 10px;
+}
+
+.painelDeSensores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 1050px;
+}
+
+.quadroPainelDeSensores {
+    display: flex;
+    color: #ffffff;
+    background: #BE3728;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.titlePainel {
+    display: inline-block;
+}
+
+.imagemQuadroLinhaMontagem {
+    margin-top: 70p;
+    display: flex;
+    height: auto;
+    width: 100%;
+    width: 50px;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.imagemQuadroLinhaMontagemMeio {
+    display: flex;
+    height: auto;
+    width: 100%;
+    width: 50px;
+    justify-self: end;
+    
+    
+}
+
+.logs{
+    background: #D2E6F5;
+    width: 1010px;
+    padding: 20px;
+    border: 1px solid #93BDDB;
+}
+
+.logs p {
+    color: #698194;
+}
+
+.linhaLogs {
+    height: 4px;
+    width: 1000px;
+    background-color: #BDDBF2;
+}
+
+.rodape {
+    color: #2DC86E;
+    justify-content: center;
+}
+
+

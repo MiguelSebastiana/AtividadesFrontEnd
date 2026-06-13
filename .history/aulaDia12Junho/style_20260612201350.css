@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+main {
+    background: #F0F5F5;
+}
+
+.topBar{
+    background: #283C50;
+}
+
+.buttonColorido {
+    background: #D77837;
+    padding: 1rem;
+}
+
+.titleNav {
+    color: #fff;
+}
+
+.subTitNav {
+    color: #868078;
+}
+
+.button {
+    border: none;
+}
