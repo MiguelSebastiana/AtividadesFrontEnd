@@ -1,0 +1,5 @@
+//                Alert para teste 
+// alert("Sistema de Supervisão Ativo e Conectado!");
+
+const anoInstalacaoMaquina = 2022;
+const ano
