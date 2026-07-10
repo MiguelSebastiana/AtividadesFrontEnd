@@ -1,0 +1,22 @@
+let num1 = 1;
+let num2 = 5;
+
+function adicionar(num1, num2){
+    return console.log(num1 + num2);
+} 
+
+function subtrair(num1, num2){
+    return console.log(num2 - num1);
+}
+
+function ehPar(numero){
+    if(numero % 2 === 0){
+        return true;
+    }
+    return 
+}
+
+function calcularMedia(numeros){
+    if(numeros.length === 0) return 0;
+    const soma = numeros.reduce((acc))
+}
